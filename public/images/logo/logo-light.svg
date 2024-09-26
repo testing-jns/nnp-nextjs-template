@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<svg width="138" height="27" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <g class="layer">
+  <title>Layer 1</title>
+  <g fill="#4a6cf7" id="svg_2">
+   <path d="m0,0c13.81,0 25,11.19 25,25l-23,0c-1.1,0 -2,-0.9 -2,-2l0,-23z" id="svg_3"/>
+   <path d="m6,25c0,-13.81 11.19,-25 25,-25l0,23c0,1.1 -0.9,2 -2,2l-23,0z" id="svg_4" opacity="0.5"/>
+  </g>
+  <text fill="#ffffff" font-family="Sans-serif" font-size="24" font-weight="bold" id="svg_6" stroke-width="0" text-anchor="middle" x="66" xml:space="preserve" y="21.5">NNP</text>
+ </g>
+</svg>

@@ -1,0 +1,26 @@
+{
+  "auth": {
+    "signin": "Sign In",
+    "signup": "Sign Up"
+  },
+  "hero": {
+    "description": "A reliable network installation service designed for businesses, ensuring top-notch security and minimal downtime. Our solutions encompass essential features to protect your network while maintaining seamless connectivity.",
+    "getnow": "🔥 Get Now",
+    "pricelist": "Price List"
+  },
+  "video": {
+    "title": "We are ready to help",
+    "description": "We are ready to help you safeguard your network and enhance your business operations."
+  },
+  "service": {
+    "title": "Our Services",
+    "description": "We specialize in providing exceptional network solutions designed to enhance your business's capabilities."
+  },
+  "testimonial": {
+    "title": "What Our Users Says",
+    "description": "There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+  },
+  "footer": {
+    "description": "Innovative network protection for your business and personal needs."
+  }
+}

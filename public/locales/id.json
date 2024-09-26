@@ -1,0 +1,27 @@
+{
+  "auth": {
+    "signin": "Masuk",
+    "signup": "Daftar"
+  },
+  "hero": {
+    "description": "Layanan instalasi jaringan yang andal dirancang untuk bisnis, memastikan keamanan terbaik dan waktu henti yang minimal. Solusi kami mencakup fitur penting untuk melindungi jaringan Anda sambil menjaga konektivitas yang lancar.",
+    "getnow": "🔥 Dapatkan Sekarang",
+    "pricelist": "Daftar Harga"
+  },
+  "video": {
+    "title": "Kami siap membantu",
+    "description": "Kami siap membantu Anda melindungi jaringan Anda dan meningkatkan operasi bisnis Anda."
+  },
+  "service": {
+    "title": "Layanan Kami",
+    "description": "Kami mengkhususkan diri dalam memberikan solusi jaringan yang luar biasa untuk meningkatkan kemampuan bisnis Anda."
+  },
+  "testimonial": {
+    "title": "Apa Kata Pengguna Kami",
+    "description": "Ada banyak variasi teks Lorem Ipsum yang tersedia, tetapi sebagian besar telah mengalami perubahan dalam beberapa bentuk."
+  },
+  "footer": {
+    "description": "Perlindungan jaringan inovatif untuk kebutuhan bisnis dan pribadi Anda."
+  }
+}
+    
