@@ -7,6 +7,10 @@ const priceListDataEn = [
       monthly: "500",
       yearly: "5.299",
     },
+    monthYear: {
+      month: "mo",
+      year: "yr",
+    },
     features: [
       { key: 1, text: "Initial consultation and needs analysis", status: "active" },
       { key: 2, text: "Basic network installation (one-time fee)", status: "active" },
@@ -22,6 +26,10 @@ const priceListDataEn = [
     price: {
       monthly: "799",
       yearly: "9.199",
+    },
+    monthYear: {
+      month: "mo",
+      year: "yr",
     },
     features: [
       { key: 1, text: "All features of the Basic Package", status: "active" },
@@ -47,6 +55,10 @@ const priceListDataEn = [
     price: {
       monthly: "1.499",
       yearly: "17.789",
+    },
+    monthYear: {
+      month: "mo",
+      year: "yr",
     },
     features: [
       { key: 1, text: "All features of the Standard Package", status: "active" },

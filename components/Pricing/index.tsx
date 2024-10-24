@@ -74,7 +74,7 @@ const Pricing = () => {
                 key={item.key}
                 packageName={item.packageName}
                 price={isMonthly ? item.price.monthly : item.price.yearly}
-                duration={isMonthly ? "mo" : "yr"}
+                duration={isMonthly ? item.monthYear.month : item.monthYear.year}
                 subtitle={item.description}
               >
                 {item.features.map((feature) => (
@@ -87,7 +87,7 @@ const Pricing = () => {
                 key={item.key}
                 packageName={item.packageName}
                 price={isMonthly ? item.price.monthly : item.price.yearly}
-                duration={isMonthly ? "mo" : "yr"}
+                duration={isMonthly ? item.monthYear.month : item.monthYear.year}
                 subtitle={item.description}
               >
                 {item.features.map((feature) => (

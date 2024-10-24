@@ -7,6 +7,10 @@ const priceListDataId = [
       monthly: "500",
       yearly: "5.299",
     },
+    monthYear: {
+      month: "bln",
+      year: "thn",
+    },
     features: [
       { key: 1, text: "Konsultasi awal dan analisis kebutuhan", status: "active" },
       { key: 2, text: "Instalasi jaringan dasar (biaya satu kali)", status: "active" },
@@ -22,6 +26,10 @@ const priceListDataId = [
     price: {
       monthly: "799",
       yearly: "9.199",
+    },
+    monthYear: {
+      month: "bln",
+      year: "thn",
     },
     features: [
       { key: 1, text: "Semua fitur Paket Dasar", status: "active" },
@@ -46,6 +54,10 @@ const priceListDataId = [
     price: {
       monthly: "1.499",
       yearly: "17.789",
+    },
+    monthYear: {
+      month: "bln",
+      year: "thn",
     },
     features: [
       { key: 1, text: "Semua fitur Paket Standar", status: "active" },
