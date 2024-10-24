@@ -4,15 +4,22 @@ import SectionTitle from "../Common/SectionTitle";
 import OfferList from "./OfferList";
 import PricingBox from "./PricingBox";
 
+import priceListDataEn from './priceListDataEn';
+import priceListDataId from './priceListDataId';
+
+import { useTranslation } from "react-i18next";
+import { Inter } from '@next/font/google';
+
 const Pricing = () => {
+  const { t, i18n } = useTranslation();
   const [isMonthly, setIsMonthly] = useState(true);
 
   return (
     <section id="pricing" className="relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="Simple and Affordable Pricing"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title={t("pricing.title")}
+          paragraph={t("pricing.description")}
           center
           width="665px"
         />
@@ -61,45 +68,33 @@ const Pricing = () => {
         </div>
 
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
-          <PricingBox
-            packageName="Lite"
-            price={isMonthly ? "40" : "120"}
-            duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
-          >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="inactive" />
-            <OfferList text="Free Lifetime Updates" status="inactive" />
-          </PricingBox>
-          <PricingBox
-            packageName="Basic"
-            price={isMonthly ? "399" : "789"}
-            duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
-          >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="active" />
-            <OfferList text="Free Lifetime Updates" status="inactive" />
-          </PricingBox>
-          <PricingBox
-            packageName="Plus"
-            price={isMonthly ? "589" : "999"}
-            duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
-          >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="active" />
-            <OfferList text="Free Lifetime Updates" status="active" />
-          </PricingBox>
+          {i18n.language === "en"
+              ? priceListDataEn.map((item) => (
+                <PricingBox
+                key={item.key}
+                packageName={item.packageName}
+                price={isMonthly ? item.price.monthly : item.price.yearly}
+                duration={isMonthly ? "mo" : "yr"}
+                subtitle={item.description}
+              >
+                {item.features.map((feature) => (
+                  <OfferList key={feature.key} text={feature.text} status={feature.status} />
+                ))}
+              </PricingBox>
+                ))
+              : priceListDataId.map((item) => (
+                <PricingBox
+                key={item.key}
+                packageName={item.packageName}
+                price={isMonthly ? item.price.monthly : item.price.yearly}
+                duration={isMonthly ? "mo" : "yr"}
+                subtitle={item.description}
+              >
+                {item.features.map((feature) => (
+                  <OfferList key={feature.key} text={feature.text} status={feature.status} />
+                ))}
+              </PricingBox>
+                ))}
         </div>
       </div>
 

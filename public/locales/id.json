@@ -18,10 +18,14 @@
   },
   "testimonial": {
     "title": "Apa Kata Pengguna Kami",
-    "description": "Ada banyak variasi teks Lorem Ipsum yang tersedia, tetapi sebagian besar telah mengalami perubahan dalam beberapa bentuk."
+    "description": "Dengarkan dari pelanggan kami yang puas tentang pengalaman mereka dengan layanan kami."
   },
   "footer": {
     "description": "Perlindungan jaringan inovatif untuk kebutuhan bisnis dan pribadi Anda."
+  },
+  "pricing": {
+    "title": "Harga Sederhana dan Terjangkau",
+    "description": "Opsi yang jelas dan hemat anggaran untuk perlindungan jaringan yang andal."
   }
 }
     

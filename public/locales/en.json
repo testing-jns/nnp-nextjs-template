@@ -18,9 +18,13 @@
   },
   "testimonial": {
     "title": "What Our Users Says",
-    "description": "There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+    "description": "Hear from our satisfied customers about their experiences with our services."
   },
   "footer": {
     "description": "Innovative network protection for your business and personal needs."
+  },
+  "pricing": {
+    "title": "Simple and Affordable Pricing",
+    "description": "Clear, budget-friendly options for dependable network protection."
   }
 }
